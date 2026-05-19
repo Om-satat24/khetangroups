@@ -4,7 +4,7 @@ authors = [
     {name = "Vraj Patel", email = "vraj.patel@satat.tech"}
 ]
 description = "Custom Frappe app"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dynamic = ["version"]
 
 [tool.bench.frappe-dependencies]
