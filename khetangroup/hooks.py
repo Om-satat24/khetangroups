@@ -55,7 +55,7 @@ app_license = "MIT"
 # ----------
 jinja = {
 	"methods": [
-		"khetangroup.qrcode.get_qr_code"
+		"khetangroup.qr_utils.get_qr_code"
 	]
 }
 
@@ -152,7 +152,7 @@ jinja = {
 #	],
 # }
 scheduler_events = {    
-    "update_stock_entry": {
+    "cron": {
         "*/5 * * * *": [
             "khetangroup.update_stock_entry.update_stock_entry"
         ],
