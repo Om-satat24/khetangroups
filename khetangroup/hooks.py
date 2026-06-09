@@ -118,7 +118,9 @@ jinja = {
 # override_doctype_class = {
 #	"ToDo": "custom_app.overrides.CustomToDo"
 # }
-
+override_doctype_class = {
+    "Sales Invoice": "khetangroup.khetangroup.overrides.sales_invoice.CustomSalesInvoice"
+}
 # Document Events
 # ---------------
 # Hook on document methods and events
